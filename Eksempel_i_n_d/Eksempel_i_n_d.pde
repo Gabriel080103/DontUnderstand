@@ -3,8 +3,8 @@ background(255);
 int y = 0;
 
 
-while (y<height); {
+while (y<height) {
 stroke(0);
-line(0,10,180,10);
-y = y+20 ;
+line(0,y,200,y);
+y = y+10 ;
 }
